@@ -36,7 +36,46 @@ body > div {
 section h1,
 footer h1,
 nav a {
-  font-family: Dayrom, serif;
+  font-family: "Dayrom", serif;
   font-weight: normal;
   text-transform: uppercase;
+}
+
+/* Header */
+
+header {
+  background: url("images/separateur.png") repeat-x bottom;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+header > div {
+  display: flex;
+  flex-direction: column;
+}
+
+header > div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+header > div > div > img {
+  width: 59px;
+  height: 60px;
+}
+
+header h1 {
+  font-family: "BallparkWeiner", serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin: 0 0 0 10px;
+}
+
+header h2 {
+  font-family: "Dayrom", serif;
+  font-size: 1.1em;
+  margin-top: 0px;
+  font-weight: normal;
 }
