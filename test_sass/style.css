@@ -124,4 +124,49 @@ header h2 {
   border: 0;
 }
 
+/* Corps , la section */
+section {
+  display: flex;
+  margin-bottom: 20px;
+}
+section article {
+  margin-right: 20px;
+  flex: 3;
+  text-align: justify;
+}
+section article h2 {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+section article p {
+  font-size: 0.8em;
+}
+section aside {
+  height: fit-content;
+  flex: 1.2;
+  position: relative;
+  background-color: #706b64;
+  box-shadow: 0px 2px 5px #1c1a19;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 0.9em;
+  text-align: justify;
+}
+section aside > img {
+  position: absolute;
+  top: 100px;
+  left: -12px;
+}
+section aside img {
+  margin-right: 5px;
+}
+
+#photo_zozor {
+  text-align: center;
+}
+#photo_zozor img {
+  border: 1px solid #181818;
+}
+
 /*# sourceMappingURL=style.css.map */
