@@ -254,3 +254,46 @@ footer h2 {
   text-decoration: none;
   color: #760001;
 }
+
+/* Media Queries */
+/* Les media peuvent être utilisé avec les atributs all(pour tout), screen(les écran), print(imprimente), speech(logiciel vocal?) */
+
+/* 
+@media all and (max-width: 1024px) {
+  body > div {
+    position: relative;
+    width: auto;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  #banniere_image {
+    display: none;
+  }
+  section {
+    flex-direction: column;
+  }
+  article {
+    margin: auto;
+  }
+  aside {
+    width: auto;
+  }
+  aside > img {
+    display: none;
+  }
+  #photo_zozor img {
+    float: right;
+    margin-left: 15px;
+  }
+  aside p:last-child {
+    text-align: center;
+  }
+  footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer > div {
+    min-width: 300px;
+  }
+} */
