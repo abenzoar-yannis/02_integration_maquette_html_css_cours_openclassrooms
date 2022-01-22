@@ -29,7 +29,6 @@ body {
     margin: auto;
   }
 }
-
 section h2,
 footer h2,
 nav a {
@@ -40,7 +39,6 @@ nav a {
 }
 
 /* Header */
-
 header {
   background: url("images/separateur.png") repeat-x bottom;
   display: flex;
@@ -74,7 +72,6 @@ header {
 }
 
 /* Navigation */
-
 .nav {
   list-style-type: none;
   display: flex;
@@ -93,7 +90,6 @@ header {
 }
 
 /* Bannière */
-
 #banniere_image {
   margin-top: 15px;
   height: 200px;
@@ -134,7 +130,6 @@ header {
 }
 
 /* Corps , la section */
-
 section {
   display: flex;
   margin-bottom: 20px;
@@ -175,5 +170,47 @@ section {
   text-align: center;
   img {
     border: 1px solid #181818;
+  }
+}
+
+/* Footer */
+footer {
+  display: flex;
+  background: url("../images/ico_top.png") no-repeat top center,
+    url("../images/separateur.png") repeat-x top,
+    url("../images/ombre.png") repeat-x top;
+  padding-top: 25px;
+  p,
+  ul {
+    font-size: 0.8em;
+  }
+  h2 {
+    font-size: 1.1em;
+  }
+}
+#tweet {
+  width: 28%;
+}
+#mes_photos {
+  width: 35%;
+  img {
+    border: 1px solid #181818;
+    margin-right: 2px;
+  }
+}
+#mes_amis {
+  width: 31%;
+  > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+  ul {
+    list-style-image: url("images/ico_liensexterne.png");
+    padding-left: 2px;
+  }
+  a {
+    text-decoration: none;
+    color: #760001;
   }
 }
