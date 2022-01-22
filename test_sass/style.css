@@ -212,4 +212,48 @@ footer h2 {
   color: #760001;
 }
 
+@media all and (max-width: 1024px) {
+  body > div {
+    position: relative;
+    width: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  #banniere_image {
+    display: none;
+  }
+
+  section {
+    flex-direction: column;
+  }
+  section article {
+    margin: auto;
+  }
+  section aside {
+    width: auto;
+  }
+  section aside > img {
+    display: none;
+  }
+  section aside p:last-child {
+    text-align: center;
+  }
+
+  #photo_zozor img {
+    float: right;
+    margin-left: 15px;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer > div {
+    min-width: 300px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
